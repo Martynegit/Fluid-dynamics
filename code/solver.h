@@ -1,7 +1,9 @@
 #ifndef SOLVER_H
 #define SOLVER_H
 
-class solver{
+#include "fluidElement.h"
+
+class solver : public fluidElement{
 
   private:
   
