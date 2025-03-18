@@ -4,9 +4,11 @@
 class fluidElement{
 
   private:
+    float dt, dvx, dvy, dvz;
   
   public:
     fluidElement();
+    fluidElement(float, float, float, float);
 
 
 };
